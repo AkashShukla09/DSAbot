@@ -79,70 +79,18 @@ client.on('messageCreate', async message => {
        User.collection.insertOne({ ID: server, count:0, q1:false, q2:false, q3:false, q4:false, q5:false, q6:false, q7:false, q8:false, q9:false, q10:false, q11:false, q12:false, q13:false, q14:false, q15:false, q16:false, q17:false, q18:false, q19:false, q20:false, q21:false, q22:false, q23:false, q24:false, q25:false, q26:false, q27:false, q28:false, q29:false, q30:false, q31:false, q32:false, q33:false, q34:false, q35:false, q36:false, q37:false, q38:false, q39:false, q40:false, q41:false, q42:false, q43:false, q44:false, q45:false, q46:false, q47:false, q48:false, q49:false, q50:false, q51:false, q52:false, q53:false, q54:false, q55:false, q56:false, q57:false, q58:false, q59:false, q60:false, q61:false, q62:false, q63:false, q64:false, q65:false, q66:false, q67:false, q68:false, q69:false, q70:false, q71:false, q72:false, q73:false, q74:false, q75:false, q76:false, q77:false, q78:false, q79:false, q80:false, q81:false, q82:false, q83:false, q84:false, q85:false, q86:false, q87:false, q88:false, q89:false, q90:false, q91:false, q92:false, q93:false, q94:false, q95:false, q96:false, q97:false, q98:false, q99:false, q100:false, q101:false, q102:false, q103:false, q104:false, q105:false, q106:false, q107:false, q108:false, q109:false, q110:false, q111:false, q112:false, q113:false, q114:false, q115:false, q116:false, q117:false, q118:false, q119:false, q120:false, q121:false, q122:false, q123:false, q124:false, q125:false, q126:false, q127:false, q128:false, q129:false, q130:false, q131:false, q132:false, q133:false, q134:false, q135:false, q136:false, q137:false, q138:false, q139:false, q140:false, q141:false, q142:false, q143:false, q144:false, q145:false, q146:false, q147:false, q148:false, q149:false, q150:false, q151:false, q152:false, q153:false, q154:false, q155:false, q156:false, q157:false, q158:false, q159:false, q160:false, q161:false, q162:false, q163:false, q164:false, q165:false, q166:false, q167:false, q168:false, q169:false, q170:false, q171:false, q172:false, q173:false, q174:false, q175:false, q176:false, q177:false, q178:false, q179:false, q180:false, q181:false, q182:false, q183:false, q184:false, q185:false, q186:false, q187:false, q188:false, q189:false, q190:false, q191:false, q192:false, q193:false, q194:false, q195:false, q196:false, q197:false, q198:false, q199:false, q200:false, q201:false, q202:false, q203:false, q204:false, q205:false, q206:false, q207:false, q208:false, q209:false, q210:false, q211:false, q212:false, q213:false, q214:false, q215:false, q216:false, q217:false, q218:false, q219:false, q220:false, q221:false, q222:false, q223:false, q224:false, q225:false, q226:false, q227:false, q228:false, q229:false, q230:false, q231:false, q232:false, q233:false, q234:false, q235:false, q236:false, q237:false, q238:false, q239:false, q240:false, q241:false, q242:false, q243:false, q244:false, q245:false, q246:false, q247:false, q248:false, q249:false, q250:false, q251:false, q252:false, q253:false, q254:false, q255:false, q256:false, q257:false, q258:false, q259:false, q260:false, q261:false, q262:false, q263:false, q264:false, q265:false, q266:false, q267:false, q268:false, q269:false, q270:false, q271:false, q272:false, q273:false, q274:false, q275:false, q276:false, q277:false, q278:false, q279:false, q280:false, q281:false, q282:false, q283:false, q284:false, q285:false, q286:false, q287:false, q288:false, q289:false, q290:false, q291:false, q292:false, q293:false, q294:false, q295:false, q296:false, q297:false, q298:false, q299:false, q300:false, q301:false, q302:false, q303:false, q304:false, q305:false, q306:false, q307:false, q308:false, q309:false, q310:false, q311:false, q312:false, q313:false, q314:false, q315:false, q316:false, q317:false, q318:false, q319:false, q320:false, q321:false, q322:false, q323:false, q324:false, q325:false, q326:false, q327:false, q328:false, q329:false, q330:false, q331:false, q332:false, q333:false, q334:false, q335:false, q336:false, q337:false, q338:false, q339:false, q340:false, q341:false, q342:false, q343:false, q344:false, q345:false, q346:false, q347:false, q348:false, q349:false, q350:false, q351:false, q352:false, q353:false, q354:false, q355:false, q356:false, q357:false, q358:false, q359:false, q360:false, q361:false, q362:false, q363:false, q364:false, q365:false, q366:false, q367:false, q368:false, q369:false, q370:false, q371:false, q372:false, q373:false, q374:false, q375:false, q376:false, q377:false, q378:false, q379:false, q380:false, q381:false, q382:false, q383:false, q384:false, q385:false, q386:false, q387:false, q388:false, q389:false, q390:false, q391:false, q392:false, q393:false, q394:false, q395:false, q396:false, q397:false, q398:false, q399:false, q400:false, q401:false, q402:false, q403:false, q404:false, q405:false, q406:false, q407:false, q408:false, q409:false, q410:false, q411:false, q412:false, q413:false, q414:false, q415:false, q416:false, q417:false, q418:false, q419:false, q420:false, q421:false, q422:false, q423:false, q424:false, q425:false, q426:false, q427:false, q428:false, q429:false, q430:false, q431:false, q432:false, q433:false, q434:false, q435:false, q436:false, q437:false, q438:false, q439:false, q440:false, q441:false, q442:false, q443:false, q444:false, q445:false })
 
 
-      let scheduledMessage = new cron.CronJob('00 00 13 * * *', () => {
-        // This runs every day at 10:30:00, you can do anything you want
+      let scheduledMessage = new cron.CronJob('00 00 18 * * *', () => {
+        // This runs every day at 18:00:00, you can do anything you want
            question();
           });
       scheduledMessage.start()
     }
 
 
-    //below this is not important
 
-    // if(message.content=='!insertdb'){
-    //   let server = message.guild.id
     //    User.collection.insertOne({ ID: server, count:0, q1:false, q2:false, q3:false, q4:false, q5:false, q6:false, q7:false, q8:false, q9:false, q10:false, q11:false, q12:false, q13:false, q14:false, q15:false, q16:false, q17:false, q18:false, q19:false, q20:false, q21:false, q22:false, q23:false, q24:false, q25:false, q26:false, q27:false, q28:false, q29:false, q30:false, q31:false, q32:false, q33:false, q34:false, q35:false, q36:false, q37:false, q38:false, q39:false, q40:false, q41:false, q42:false, q43:false, q44:false, q45:false, q46:false, q47:false, q48:false, q49:false, q50:false, q51:false, q52:false, q53:false, q54:false, q55:false, q56:false, q57:false, q58:false, q59:false, q60:false, q61:false, q62:false, q63:false, q64:false, q65:false, q66:false, q67:false, q68:false, q69:false, q70:false, q71:false, q72:false, q73:false, q74:false, q75:false, q76:false, q77:false, q78:false, q79:false, q80:false, q81:false, q82:false, q83:false, q84:false, q85:false, q86:false, q87:false, q88:false, q89:false, q90:false, q91:false, q92:false, q93:false, q94:false, q95:false, q96:false, q97:false, q98:false, q99:false, q100:false, q101:false, q102:false, q103:false, q104:false, q105:false, q106:false, q107:false, q108:false, q109:false, q110:false, q111:false, q112:false, q113:false, q114:false, q115:false, q116:false, q117:false, q118:false, q119:false, q120:false, q121:false, q122:false, q123:false, q124:false, q125:false, q126:false, q127:false, q128:false, q129:false, q130:false, q131:false, q132:false, q133:false, q134:false, q135:false, q136:false, q137:false, q138:false, q139:false, q140:false, q141:false, q142:false, q143:false, q144:false, q145:false, q146:false, q147:false, q148:false, q149:false, q150:false, q151:false, q152:false, q153:false, q154:false, q155:false, q156:false, q157:false, q158:false, q159:false, q160:false, q161:false, q162:false, q163:false, q164:false, q165:false, q166:false, q167:false, q168:false, q169:false, q170:false, q171:false, q172:false, q173:false, q174:false, q175:false, q176:false, q177:false, q178:false, q179:false, q180:false, q181:false, q182:false, q183:false, q184:false, q185:false, q186:false, q187:false, q188:false, q189:false, q190:false, q191:false, q192:false, q193:false, q194:false, q195:false, q196:false, q197:false, q198:false, q199:false, q200:false, q201:false, q202:false, q203:false, q204:false, q205:false, q206:false, q207:false, q208:false, q209:false, q210:false, q211:false, q212:false, q213:false, q214:false, q215:false, q216:false, q217:false, q218:false, q219:false, q220:false, q221:false, q222:false, q223:false, q224:false, q225:false, q226:false, q227:false, q228:false, q229:false, q230:false, q231:false, q232:false, q233:false, q234:false, q235:false, q236:false, q237:false, q238:false, q239:false, q240:false, q241:false, q242:false, q243:false, q244:false, q245:false, q246:false, q247:false, q248:false, q249:false, q250:false, q251:false, q252:false, q253:false, q254:false, q255:false, q256:false, q257:false, q258:false, q259:false, q260:false, q261:false, q262:false, q263:false, q264:false, q265:false, q266:false, q267:false, q268:false, q269:false, q270:false, q271:false, q272:false, q273:false, q274:false, q275:false, q276:false, q277:false, q278:false, q279:false, q280:false, q281:false, q282:false, q283:false, q284:false, q285:false, q286:false, q287:false, q288:false, q289:false, q290:false, q291:false, q292:false, q293:false, q294:false, q295:false, q296:false, q297:false, q298:false, q299:false, q300:false, q301:false, q302:false, q303:false, q304:false, q305:false, q306:false, q307:false, q308:false, q309:false, q310:false, q311:false, q312:false, q313:false, q314:false, q315:false, q316:false, q317:false, q318:false, q319:false, q320:false, q321:false, q322:false, q323:false, q324:false, q325:false, q326:false, q327:false, q328:false, q329:false, q330:false, q331:false, q332:false, q333:false, q334:false, q335:false, q336:false, q337:false, q338:false, q339:false, q340:false, q341:false, q342:false, q343:false, q344:false, q345:false, q346:false, q347:false, q348:false, q349:false, q350:false, q351:false, q352:false, q353:false, q354:false, q355:false, q356:false, q357:false, q358:false, q359:false, q360:false, q361:false, q362:false, q363:false, q364:false, q365:false, q366:false, q367:false, q368:false, q369:false, q370:false, q371:false, q372:false, q373:false, q374:false, q375:false, q376:false, q377:false, q378:false, q379:false, q380:false, q381:false, q382:false, q383:false, q384:false, q385:false, q386:false, q387:false, q388:false, q389:false, q390:false, q391:false, q392:false, q393:false, q394:false, q395:false, q396:false, q397:false, q398:false, q399:false, q400:false, q401:false, q402:false, q403:false, q404:false, q405:false, q406:false, q407:false, q408:false, q409:false, q410:false, q411:false, q412:false, q413:false, q414:false, q415:false, q416:false, q417:false, q418:false, q419:false, q420:false, q421:false, q422:false, q423:false, q424:false, q425:false, q426:false, q427:false, q428:false, q429:false, q430:false, q431:false, q432:false, q433:false, q434:false, q435:false, q436:false, q437:false, q438:false, q439:false, q440:false, q441:false, q442:false, q443:false, q444:false, q445:false })
  
-    // }
 
-
-    
-// User.find({},function (err, user) {
-//   console.log(user.ID)
-// });
-
-// client.on('ready', ()=>
-// {
-    // console.log('DSAbot is online')
-
-    // User.find({ID:"100"},function(err,user){
-    //   try{
-    //     console.log(user)
-    //   }
-    //   catch(err){
-    //     console.log(err)
-    //   }
-    // })
-//   } 
-// )
-
-
-     // if(message.content=='!new'){
-    //   const x= Math.floor(Math.random() * (446 - 1)) + 0;
-    //     message.reply('Topic -> '+Type[x]+'\n'+Qname[x]+'\n'+Ques[x]);
-    // }
-
-
-    //  if(message.content=='!change2'){
-    //   const user=await User.findOne({ID: "100"})
-
-    //     while(true){
-    //       const x= Math.floor(Math.random() * (446 - 1)) + 0;
-    //       var y="q"+x;
-    //       const boolval =await User.findOne({[y]: false});
-    //       if(boolval){
-    //         break;
-    //       }
-    //     }
-    //   if(!user){
-    //         message.reply('ID 100 not found')
-    //     }else{
-    //         const filter = { ID: "100" };
-    //         const update = { [y]: true };
-    //         const user=await User.findOneAndUpdate(filter, update, {new: true});
-    //         message.reply(y)
-    //     }
-    // }
 
   });
   
