@@ -71,7 +71,7 @@ client.on('messageCreate', async message => {
 
     if(message.content=='!startnow'){
       
-      message.reply('I will be posting 1 question each day at 6:00 AM so that you can practice it along with your friends!! \n All these questions are from Love Babber Sheet consisting of 445 most asked questions in Top tech companies. Link to the video: https://www.youtube.com/watch?v=4iFALQ1ACdA');
+      message.reply('I will be posting 1 question each day at 8:00 PM so that you can practice it along with your friends!! \n All these questions are from Love Babber Sheet consisting of 445 most asked questions in Top tech companies. Link to the video: https://www.youtube.com/watch?v=4iFALQ1ACdA');
       
 
 
