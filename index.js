@@ -36,10 +36,10 @@ client.on('messageCreate', async message => {
       const count= await User.findOne({count: 445})
 
       if(count){
+        message.reply('You have completed all the 445 questions!')
         scheduledMessage.stop()
       }
-      //   const x= Math.floor(Math.random() * (446 - 1)) + 0;
-      //   const y="q"+x;
+ 
 
       while(true){
         var x= Math.floor(Math.random() * (446 - 1)) + 0;
@@ -61,7 +61,6 @@ client.on('messageCreate', async message => {
                   const filter = { ID: [server] };
                   const update = { [y]: true };
                   const user=await User.findOneAndUpdate(filter, update, {new: true});
-                  //  message.reply("Done")
               }
     }
 
@@ -80,7 +79,6 @@ client.on('messageCreate', async message => {
 
 
       let scheduledMessage = new cron.CronJob('00 35 17 * * *', () => {
-        // This runs every day at 18:00:00, you can do anything you want
            question();
           });
       scheduledMessage.start()
